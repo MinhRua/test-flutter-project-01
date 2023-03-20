@@ -5,7 +5,6 @@ import 'package:test_project/views/vierify_email_view.dart';
 import 'firebase_options.dart';
 import 'package:test_project/views/login_views.dart';
 import 'package:test_project/views/register_view.dart';
-import 'dart:developer' as devtools show log;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,8 +15,9 @@ void main() {
       ),
       home: const HomePage(),
       routes: {
-        "/login": (context) => const LoginView(),
-        "/register": (context) => const RegisterView(),
+        "/login/": (context) => const LoginView(),
+        "/register/": (context) => const RegisterView(),
+        "/notes/": (context) => const NotesView(),
       },
     ),
   );
