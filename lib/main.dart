@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:test_project/constants/routes.dart';
 import 'package:test_project/services/auth/auth_service.dart';
-import 'package:test_project/views/new_note_view.dart';
-import 'package:test_project/views/note_view.dart';
+import 'package:test_project/views/notes/new_note_view.dart';
+import 'package:test_project/views/notes/note_view.dart';
 import 'package:test_project/views/vierify_email_view.dart';
 import 'package:test_project/views/login_views.dart';
 import 'package:test_project/views/register_view.dart';
